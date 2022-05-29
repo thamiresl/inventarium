@@ -1,0 +1,87 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.operation-btn {
+    color: white;
+    margin-top: 10px;
+    border-radius: 7px;
+    height: 46px;
+    width: 320px;
+    background-color: rgba(220, 154, 55, 0.925);
+    border:rgba(220, 154, 55, 0.925);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+}
+
+.goods {
+    font-size: 26px;
+}
+
+.goods-ipt {
+    background-color: rgb(225, 221, 221);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 30px;
+    width: 340px;
+    gap: 15px;
+}
+
+.goods-numbers {
+    font-size: 26px;
+}
+
+.goods-numbers-ipt {
+    background-color: rgb(225, 221, 221);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 30px;
+    width: 340px;
+    gap: 15px;
+}
+
+.movement {
+    font-size: 26px;
+}
+
+.movement-ipt {
+    background-color: rgb(225, 221, 221);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 30px;
+    width: 340px;
+    gap: 35px;
+    font-size: 18px;
+}
+
+.buy-value {
+    font-size: 26px;
+}
+
+.buy-value-ipt {
+    background-color: rgb(225, 221, 221);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 30px;
+    width: 340px;
+    gap: 35px;
+    font-size: 18px;
+}
+
+.sell-value {
+    font-size: 26px;
+}
+
+.sell-value-ipt {
+    background-color: rgb(225, 221, 221);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 30px;
+    width: 340px;
+    gap: 35px;
+    font-size: 18px;
+}

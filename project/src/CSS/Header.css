@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    align-items: center;
+    background-color: rgb(41, 24, 171);;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 140px;
+}
+
+.header-title {
+    color: white;
+    display: flex;
+    font-size:86px;
+}
+
+.report-btn {
+    color: white;
+    margin-top: 10px;
+    border-radius: 7px;
+    height: 46px;
+    width: 120px;
+    background-color: rgba(220, 154, 55, 0.925);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 1008px;
+    font-size: 20px;
+}
+
+.inventary-btn {
+    color: white;
+    margin-top: 10px;
+    border-radius: 7px;
+    height: 46px;
+    width: 120px;
+    background-color: rgba(220, 154, 55, 0.925);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+}
