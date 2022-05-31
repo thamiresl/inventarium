@@ -39,7 +39,6 @@
                 class="movement-ipt"
                 id="movement"
                >
-                   <option>Selecione</option>
                    <option>Venda</option>
                    <option>Compra</option>
                </select>
@@ -64,48 +63,28 @@
            class="operation-btn"
            type="button"
            id="operation-btn"
+           onclick="addRow()"
            >
                Finalizar
            </button>
          </form>
        </div>
 
-       <div class="report-container">
-        <label class="report-year">
-            Ano:
-            <input
-            class="report-year-ipt"
-            type="text"
-            id="year"
-            />
-        </label>
-
-        <label class="report-mounth">
-            Mês:
-            <input
-            class="report-mounth-ipt"
-            type="text"
-            id="mounth"
-            />
-        </label>
-        <button
-          class="report-btn"
-          type="button"
-          id="print"
-          >
-              Imprimir
-        </button>
-        <table>
-          <tr>
+      <div>
+        <table id="table">
+          <tr class="col">
               <th>Mercadoria</th>
               <th>Unidades</th>
               <th>Operação</th>
               <th>Valor da compra</th>
               <th>Valor da venda</th>
           </tr>
+          <tr class="line">
+              <td></td>
+          </tr>
         </table>
       </div>
-
     
 </body>
+<script src="script.js"></script>
 </html>
