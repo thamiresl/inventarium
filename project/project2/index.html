@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventarium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header-container">
+        <h1
+        class="header-title"
+        >
+            Inventarium
+        </h1>
+    </div>
+    <div class="form-container">
+        <form>
+           <label class="goods">
+               Mercadoria:
+               <input
+               class="goods-ipt"
+               id="goods"
+               />
+           </label>
+           <br />
+           <label class="goods-numbers">
+               Unidades:
+               <input
+               class="goods-numbers-ipt"
+               id="goods-numbers"
+               />
+           </label>
+           <br />
+           <label class="movement">
+               Operação:
+               <select
+                class="movement-ipt"
+                id="movement"
+               >
+                   <option>Selecione</option>
+                   <option>Venda</option>
+                   <option>Compra</option>
+               </select>
+           </label>
+           <br />
+           <label class="buy-value">
+               Valor da compra: 
+               <input
+               class="buy-value-ipt"
+               id="buy-value"
+               />
+           </label>
+           <br />
+           <label class="sell-value">
+               Valor da venda:
+               <input
+               class="sell-value-ipt"
+               id="sell-value"
+               />
+           </label>
+           <button
+           class="operation-btn"
+           type="button"
+           id="operation-btn"
+           >
+               Finalizar
+           </button>
+         </form>
+       </div>
+
+       <div class="report-container">
+        <label class="report-year">
+            Ano:
+            <input
+            class="report-year-ipt"
+            type="text"
+            id="year"
+            />
+        </label>
+
+        <label class="report-mounth">
+            Mês:
+            <input
+            class="report-mounth-ipt"
+            type="text"
+            id="mounth"
+            />
+        </label>
+        <button
+          class="report-btn"
+          type="button"
+          id="print"
+          >
+              Imprimir
+        </button>
+        <table>
+          <tr>
+              <th>Mercadoria</th>
+              <th>Unidades</th>
+              <th>Operação</th>
+              <th>Valor da compra</th>
+              <th>Valor da venda</th>
+          </tr>
+        </table>
+      </div>
+
+    
+</body>
+</html>
