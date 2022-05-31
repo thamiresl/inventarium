@@ -1,36 +1,42 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../CSS/Report.css';
 
-function Form() {
+function Report() {
     return (
-        <div>
-          <label htmlFor="year">
+        <div className="report-container">
+          <label htmlFor="year"
+          className="report-year"
+          >
               Ano:
               <input
+              className="report-year-ipt"
               type="text"
               id="year"
               />
           </label>
 
-          <label htmlFor="mounth">
+          <label htmlFor="mounth"
+          className="report-mounth"
+          >
               Mês:
               <input
+              className="report-mounth-ipt"
               type="text"
               id="mounth"
               />
           </label>
-          <Link to="/relatorio">
-            <button
+          <button
+            className="report-btn"
             type="button"
             id="print"
             >
                 Imprimir
-            </button>
-          </Link>
+          </button>
+          <tr key={key}>
+              <td>{}</td>
+          </tr>
         </div>
-
     );
 }
 
-export default Form;
+export default Report;

@@ -9,18 +9,8 @@ function Header() {
             >
                 Inventarium
             </h1>
-            <button
-            className="report-btn"
-            >
-                Relatorio
-            </button>
-            <button
-            className="inventary-btn"
-            >
-                Estoque
-            </button>
         </div>
-
+        
     );
 }
 

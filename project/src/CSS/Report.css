@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.report-container {
+    background-color:  rgb(41, 24, 171);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 400px;
+    margin-top: 80px;
+    padding-top: 40px;
+}
+
+.report-year {
+    font-size: 20px;
+    color: white;
+}
+
+.report-year-ipt {
+    background-color: rgb(247, 246, 246);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 30px;
+    width: 340px;
+    margin-left: 9px;
+}
+
+.report-mounth {
+    font-size: 20px;
+    color: white;
+    margin-left: 143px;
+}
+
+.report-mounth-ipt {
+    background-color:  rgb(247, 246, 246);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 30px;
+    width: 340px;
+    margin-left: 9px;
+}
+
+.report-btn {
+    color: white;
+    margin-top: 10px;
+    border-radius: 7px;
+    height: 46px;
+    width: 120px;
+    background-color: rgba(220, 154, 55, 0.925);
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 650px;
+    font-size: 20px;
+}
